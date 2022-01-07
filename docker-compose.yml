@@ -1,0 +1,7 @@
+version: "3.4"
+services:
+  kvstore:
+    image: golang
+    volumes:
+      - .:/opt/app
+    working_dir: /opt/app
